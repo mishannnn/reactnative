@@ -15,10 +15,11 @@ export default function Index() {
       <Text style={styles.text}>Hello !!</Text>
 
 <Text style={styles.text}>This is React native!!</Text>
-<Link href={"/about"} style={{fontSize:25, margin:15 } }>About</Link>
-<Link href={"./(tabs)"} style={{fontSize:25}}> Tabs</Link>
-<Link href={"./login"} style={{fontSize:25}}> Login</Link>
-<Link href={"./regis"} style={{fontSize:25}}> Register</Link>
+{/* <Link href={"/about"} style={{fontSize:25, margin:15 } }>About</Link>
+<Link href={"./(tabs)"} style={{fontSize:25}}> Tabs</Link> */}
+<Link href={"./login"} style={{fontSize:25, margin:15, borderStyle:"solid", borderRadius:15, backgroundColor:"#bb7f40", padding:15}}> Login</Link>
+<Link href={"./regis"} style={{fontSize:25,margin:15, borderStyle:"solid", borderRadius:15, backgroundColor:"#bb7f40",padding:15}}> Register</Link>
+<Link href={"./(drawer)"} style={{fontSize:25,margin:15, borderStyle:"solid", borderRadius:15, backgroundColor:"#bb7f40",padding:15}}> Drawer</Link>
 
     </View>
 
