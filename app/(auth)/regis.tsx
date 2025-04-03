@@ -14,7 +14,7 @@ const index = () => {
       <TextInput placeholder='Enter password' style={design.input}/>
       <TextInput placeholder='  Confirm password' style={design.input}/>
       <Button title='Register'/>
-      <Text>Already have an account?<Link href="/regis" style={{color:"blue"}}> Login</Link></Text>
+      <Text>Already have an account?<Link href="/" style={{color:"blue"}}> Login</Link></Text>
     </View>
   )
 }

@@ -13,7 +13,7 @@ const index = () => {
       style={design.input}
       />
       <Text>Password:</Text>
-      <TextInput placeholder='Enter password' style={design.input}/>
+      <TextInput placeholder='Enter password' style={design.input} secureTextEntry/>
       <Button title='Login'/>
       <Text>Don't have an account?<Link href="/regis" style={{color:"blue"}}> Create one</Link></Text>
     </View>
