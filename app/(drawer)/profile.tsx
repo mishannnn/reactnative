@@ -2,12 +2,12 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
 
-const main_menu = () => {
+const Main_menu = () => {
   return (
     <View>
-      <Link href='./index'></Link>
+      <Text>This is profile</Text>
     </View>
   )
 }
 
-export default main_menu
+export default Main_menu
